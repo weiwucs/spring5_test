@@ -1,0 +1,10 @@
+#### 拦截器
+
+Java里的拦截器是动态拦截action调用的对象，它提供了一种机制可以使开发者可以定义
+在一个action执行的前后执行的代码，也可以在一个action执行前阻止其执行，同时也提供
+一种可以提取action中可重用部分的方式。在AOP(Aspect-Oriented Programming)中
+拦截器用于在某个方法或字段被访问之前进行拦截，然后在之前或之后加入某些操作。
+此外，拦截器在流行的开源框架中也很常见，这些框架依赖的技术就是Java的动态代理。理解
+拦截器的核心原理对理解这些开源框架体系结构至关重要。
+在真正的项目实战中，要想实现拦截器功能，我们一般采用继承类HandlerInterceptorAdapter
+,AbstractInterceptor和HandleInterceptor接口。

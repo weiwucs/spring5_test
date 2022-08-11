@@ -4,11 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a3e982a-2c78-42dc-92d6-ff0f9d51e125" name="Changes" comment="" />
+    <list default="true" id="4a3e982a-2c78-42dc-92d6-ff0f9d51e125" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/JdkProxy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/cglib-nodep-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/CarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/callback/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/callback/IDownloadStatusCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/callback/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/callback/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/classproxy/CglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/classproxy/PersonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/Interceptor.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/Interceptor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/spring5.md" beforeDir="false" afterPath="$PROJECT_DIR$/document/spring5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/weiwu/com/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/weiwu/com/CglibProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/weiwu/com/JdkProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/JdkProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/weiwu/com/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/weiwu/com/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/weiwu/com/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/weiwu/com/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/weiwu/com/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/weiwu/com/factorybean/IFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/factorybean/IFactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/weiwu/com/staticproxy/UserDaoProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/weiwu/com/staticproxy/UserDaoProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/weiwu/com/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/weiwu/com/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2D7DTVowlPgPI47UjMoFZwYrN3O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,9 +61,111 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/weiwu/hx_be/spring5_test/lib/cglib-nodep-3.3.0.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.externalTools",
+    "spring.configuration.checksum": "d41d8cd98f00b204e9800998ecf8427e"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\weiwu\hx_be\spring5_test\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\weiwu\hx_be\spring5_test\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.User">
+    <configuration name="CglibProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.weiwu.com.classproxy.CglibProxy" />
+      <module name="spring5_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.weiwu.com.classproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdkProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.weiwu.com.JdkProxy" />
+      <module name="spring5_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.weiwu.com.classproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.weiwu.com.callback.User" />
+      <module name="spring5_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.weiwu.com.callback.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testLifecycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.weiwu.com.classproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.weiwu.com" />
+      <option name="MAIN_CLASS_NAME" value="org.weiwu.com.AppTest" />
+      <option name="METHOD_NAME" value="testLifecycle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testStaticProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.weiwu.com.classproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.weiwu.com" />
+      <option name="MAIN_CLASS_NAME" value="org.weiwu.com.AppTest" />
+      <option name="METHOD_NAME" value="testStaticProxy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.CglibProxy" />
+        <item itemvalue="Application.org.weiwu.com.JdkProxy" />
+        <item itemvalue="JUnit.AppTest.testStaticProxy" />
+        <item itemvalue="JUnit.AppTest.testLifecycle" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,8 +174,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660041237450</updated>
+      <workItem from="1660041239042" duration="4016000" />
+      <workItem from="1660095634475" duration="41682000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

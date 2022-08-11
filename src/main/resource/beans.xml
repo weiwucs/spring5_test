@@ -2,5 +2,35 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--config bean-->
+    <bean id="user" class="org.weiwu.com.User" scope="prototype" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="name" value="name"></property>
+        <property name="nickname" value="nickname"></property>
+        <property name="person" ref="person"></property>
+        <property name="person2">
+            <bean id="person2" class="org.weiwu.com.Person">
+                <property name="name" value="name"></property>
+                <property name="nickname" value="nickname"></property>
+                <property name="address" value="address"></property>
+                <property name="idCode" value="idCode"></property>
+            </bean>
+        </property>
+    </bean>
 
+    <bean id="person" class="org.weiwu.com.Person">
+        <property name="name" value="personName"></property>
+        <property name="nickname" value="personNickname"></property>
+        <property name="address">
+            <value>
+                <![CDATA[<南京>]]>
+            </value>
+        </property>
+        <property name="idCode">
+            <null></null>
+        </property>
+    </bean>
+
+<!--    <bean id="iFactoryBean" class="org.weiwu.com.factorybean.IFactoryBean">-->
+
+<!--    </bean>-->
 </beans>

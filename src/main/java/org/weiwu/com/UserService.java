@@ -1,2 +1,4 @@
-package org.weiwu.com;public class UserService {
+package org.weiwu.com;
+
+public class UserService {
 }
